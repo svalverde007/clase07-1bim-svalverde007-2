@@ -42,13 +42,14 @@ public class Ejemplo20Nov {
             entrada.nextLine();
             contador = contador + 1;
 
-            mensaje = String.format("Nombre%s dias%s costo por dia%s total%s\n",
+            mensaje = String.format("Nombre %s: dias %d, costo por dia $%.2f,"
+                    + " total %.2f\n",
                     nombre,
                     dias,
                     costoDia,
                     valorCancelar);
 
-            System.out.printf("%s", mensaje);
+            System.out.printf("%s\n", mensaje);
         }
     }
 
